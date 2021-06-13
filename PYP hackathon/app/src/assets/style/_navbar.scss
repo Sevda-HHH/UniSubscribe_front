@@ -1,0 +1,35 @@
+@media screen and (max-width: 900px) {
+    .navLinksSerach {
+        justify-content: center !important;
+    }
+}
+.navSearch {
+    border: none !important;
+    background: white;
+    color: $bg-purple !important;
+    border-radius: 0;
+    &:hover {
+        background: $bg-purple !important;
+        transition: 0.5s;
+        color: white !important;
+    }
+}
+
+.navLinks {
+    color: black !important;
+    text-decoration: none;
+    padding: 10px;
+}
+.accountIcon {
+    font-size: 35px !important;
+    // margin-bottom: 5px;
+}
+.uniName {
+    font-weight: bold;
+}
+.inputSearchForm {
+    border: 2px solid white;
+    border-radius: 10px 0 0 10px;
+
+    padding: 16px 30px;
+}
